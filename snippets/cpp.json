@@ -1,0 +1,32 @@
+{
+	"dox": {
+		"prefix": "dox",
+		"body": [
+			"/**",
+			" * ${1}",
+			" */"
+		],
+		"description": "Doxygen Comment"
+	},
+	"include guard": {
+		"prefix": "once",
+		"body": [
+			"#ifndef ${1:PROJECT_FILE}_H_",
+			"#define ${1:PROJECT_FILE}_H_",
+			"",
+			"${2}",
+			"",
+			"#endif  /* ${1:PROJECT_FILE}_H_ */"
+		],
+		"description": "Include Guard"
+	},
+	"namespace": {
+		"prefix": "ns",
+		"body": [
+			"namespace ${1:name} {",
+			"${2}",
+			"}  // namespace ${1:name}"
+		],
+		"description": "Namespace"
+	}
+}

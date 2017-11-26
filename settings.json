@@ -1,0 +1,26 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontSize": 16,
+    "editor.scrollBeyondLastLine": false,
+    "editor.minimap.enabled": false,
+    "editor.autoClosingBrackets": false,
+    "editor.renderWhitespace": "all",
+    "editor.folding": false,
+
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+
+    "C_Cpp.intelliSenseEngineFallback": "Disabled",
+    "C_Cpp.loggingLevel": "Warning",
+
+    "python.linting.pep8Enabled": true,
+
+    "go.formatTool": "gofmt",
+    "go.formatOnSave": false,
+
+    "files.associations": {
+        "SConstruct": "python",
+        "SConscript": "python"
+    }
+}
