@@ -11,6 +11,8 @@
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
 
+    "git.ignoreLegacyWarning": true,
+
     "C_Cpp.intelliSenseEngineFallback": "Disabled",
     "C_Cpp.loggingLevel": "Warning",
 
