@@ -16,7 +16,7 @@
 			"",
 			"${2}",
 			"",
-			"#endif  /* ${1:PROJECT_FILE}_H_ */"
+			"#endif /* ${1:PROJECT_FILE}_H_ */"
 		],
 		"description": "Include Guard"
 	},
