@@ -1,15 +1,15 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontSize": 16,
-    "editor.scrollBeyondLastLine": false,
-    "editor.minimap.enabled": false,
     "editor.autoClosingBrackets": false,
-    "editor.renderWhitespace": "all",
     "editor.folding": false,
+    "editor.fontSize": 16,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.scrollBeyondLastLine": false,
 
     "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
 
     "git.ignoreLegacyWarning": true,
 
@@ -18,11 +18,11 @@
 
     "python.linting.pep8Enabled": true,
 
-    "go.formatTool": "gofmt",
     "go.formatOnSave": false,
+    "go.formatTool": "gofmt",
 
     "files.associations": {
-        "SConstruct": "python",
         "SConscript": "python"
+        "SConstruct": "python",
     }
 }
