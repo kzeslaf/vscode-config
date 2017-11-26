@@ -22,7 +22,7 @@
     "go.formatTool": "gofmt",
 
     "files.associations": {
-        "SConscript": "python"
-        "SConstruct": "python",
+        "SConscript": "python",
+        "SConstruct": "python"
     }
 }
