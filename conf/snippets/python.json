@@ -3,7 +3,7 @@
 	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
 	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
 	// same ids are connected.
-	"Shebang Py2": {
+	"shebang py2": {
 		"prefix": "sh",
 		"body": [
 			"#!/usr/bin/env python",
@@ -11,9 +11,9 @@
 			"",
 			"$0"
 		],
-		"description": "Python 2 Shebang"
+		"description": "Python2 Shebang"
 	},
-	"Shebang Py3": {
+	"shebang py3": {
 		"prefix": "sh3",
 		"body": [
 			"#!/usr/bin/env python3",
@@ -21,6 +21,6 @@
 			"",
 			"$0"
 		],
-		"description": "Python 3 Shebang"
+		"description": "Python3 Shebang"
 	}
 }

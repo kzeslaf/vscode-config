@@ -3,7 +3,7 @@
 		"prefix": "dox",
 		"body": [
 			"/**",
-			" * ${1}",
+			" * ${0}",
 			" */"
 		],
 		"description": "Doxygen Comment"
@@ -14,7 +14,7 @@
 			"#ifndef ${1:PROJECT_FILE}_H_",
 			"#define ${1:PROJECT_FILE}_H_",
 			"",
-			"${2}",
+			"${0}",
 			"",
 			"#endif /* ${1:PROJECT_FILE}_H_ */"
 		],
@@ -24,7 +24,7 @@
 		"prefix": "ns",
 		"body": [
 			"namespace ${1:name} {",
-			"${2}",
+			"${0}",
 			"}  // namespace ${1:name}"
 		],
 		"description": "Namespace"
