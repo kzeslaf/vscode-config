@@ -5,6 +5,7 @@
     "editor.fontSize": 16,
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "all",
+    "editor.rulers": [80],
     "editor.scrollBeyondLastLine": false,
 
     "files.insertFinalNewline": true,
