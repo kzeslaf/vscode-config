@@ -12,18 +12,22 @@
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
 
+    "files.associations": {
+        "SConscript": "python",
+        "SConstruct": "python"
+    },
+
     "git.ignoreLegacyWarning": true,
 
     "C_Cpp.intelliSenseEngineFallback": "Disabled",
     "C_Cpp.loggingLevel": "Warning",
 
-    "python.linting.pep8Enabled": true,
-
     "go.formatOnSave": false,
     "go.formatTool": "gofmt",
 
-    "files.associations": {
-        "SConscript": "python",
-        "SConstruct": "python"
-    }
+    "[markdown]": {
+        "editor.wordWrap": "off"
+    },
+
+    "python.linting.pep8Enabled": true
 }
