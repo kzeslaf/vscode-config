@@ -1,0 +1,5 @@
+autopep8
+pep8
+pylint
+rope
+termcolor
