@@ -29,6 +29,7 @@
         "editor.wordWrap": "off"
     },
 
+    "python.envFile": "",
     "python.linting.pep8Enabled": true,
     "python.venvPath": "~/.pyenv"
 }
