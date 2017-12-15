@@ -7,7 +7,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 (
     cd "$DIR"
 
-    for i in python2 python3
+    for i in python python3
     do
         virtualenv -p $i --no-site-packages ~/.pyenv/$i
 
@@ -18,6 +18,14 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
         deactivate
     done
+
+    #
+    # Symlink python2 to python
+    #
+    (
+        cd ~/.pyenv/
+        ln -s python python2
+    )
 
     #
     # Install pysvn in python2 venv
