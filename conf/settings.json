@@ -19,6 +19,8 @@
 
     "git.ignoreLegacyWarning": true,
 
+    "telemetry.enableTelemetry": false,
+
     "C_Cpp.intelliSenseEngineFallback": "Disabled",
     "C_Cpp.loggingLevel": "Warning",
 
