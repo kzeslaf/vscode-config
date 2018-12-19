@@ -1,11 +1,11 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.autoClosingBrackets": false,
+    "editor.autoClosingBrackets": "never",
     "editor.folding": false,
     "editor.fontSize": 16,
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "all",
-    "editor.rulers": [80],
+    "editor.rulers": [72, 80],
     "editor.scrollBeyondLastLine": false,
 
     "files.insertFinalNewline": true,
@@ -21,10 +21,13 @@
 
     "telemetry.enableTelemetry": false,
 
+    //
+    // Languages
+    //
+
     "C_Cpp.intelliSenseEngineFallback": "Disabled",
     "C_Cpp.loggingLevel": "Warning",
 
-    "go.formatOnSave": false,
     "go.formatTool": "gofmt",
 
     "[markdown]": {
@@ -33,5 +36,11 @@
 
     "python.envFile": "",
     "python.linting.pep8Enabled": true,
-    "python.venvPath": "~/.pyenv"
+    "python.venvPath": "~/.pyenv",
+
+    //
+    // Tools
+    //
+
+    "shellcheck.disableVersionCheck": true
 }
