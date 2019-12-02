@@ -10,6 +10,9 @@ set -e
 #    - torn4dom4n.latex-support
 
 extensions=(
+    # latex
+    james-yu.latex-workshop
+
     # python
     ms-python.python
 

@@ -43,5 +43,7 @@
     // Tools
     //
 
+    "latex-workshop.view.pdf.viewer": "tab",
+
     "shellcheck.disableVersionCheck": true
 }
