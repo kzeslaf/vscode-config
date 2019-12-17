@@ -22,6 +22,8 @@
 
     "telemetry.enableTelemetry": false,
 
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+
     //
     // Languages
     //
