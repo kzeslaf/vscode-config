@@ -8,6 +8,7 @@
     "editor.renderWhitespace": "all",
     "editor.rulers": [80],
     "editor.scrollBeyondLastLine": false,
+    "editor.wordWrap": "off",
 
     "files.eol": "\n",
     "files.insertFinalNewline": true,
@@ -25,28 +26,26 @@
 
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
 
-    //
-    // Languages
-    //
+    /////////////////////////////
+    // Plugins
+    /////////////////////////////
 
+    // Bash
+    "shellcheck.disableVersionCheck": true,
+
+    // C++
     "C_Cpp.intelliSenseEngineFallback": "Disabled",
     "C_Cpp.loggingLevel": "Warning",
 
-    "go.formatTool": "gofmt",
-
-    "[markdown]": {
-        "editor.wordWrap": "off"
-    },
-
-    "python.envFile": "",
-    "python.linting.pycodestyleEnabled": true,
-    "python.venvPath": "~/.pyenv",
-
-    //
-    // Tools
-    //
-
+    // Latex
     "latex-workshop.view.pdf.viewer": "tab",
 
-    "shellcheck.disableVersionCheck": true
+    // Python
+    "python.envFile": "",
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pylintArgs": [
+        "-d missing-function-docstring",
+        "-d missing-module-docstring"
+    ],
+    "python.linting.pylintUseMinimalCheckers": false
 }
