@@ -27,6 +27,14 @@
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
 
     /////////////////////////////
+    // Per Language Settings
+    /////////////////////////////
+
+    "[markdown]": {
+        "editor.wordWrap": "off"
+    },
+
+    /////////////////////////////
     // Plugins
     /////////////////////////////
 
