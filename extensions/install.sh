@@ -7,9 +7,11 @@ set -e
 #    - CMake Tools (vector-of-bool)
 #    - Nagios (tmlo)
 #    - PlantUML (jebbs)
-#    - torn4dom4n.latex-support
 
 extensions=(
+    # java
+    redhat.java
+
     # latex
     james-yu.latex-workshop
 

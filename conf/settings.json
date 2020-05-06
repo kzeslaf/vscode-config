@@ -45,6 +45,9 @@
     "C_Cpp.intelliSenseEngineFallback": "Disabled",
     "C_Cpp.loggingLevel": "Warning",
 
+    // Java
+    "java.configuration.checkProjectSettingsExclusions": false,
+
     // Latex
     "latex-workshop.view.pdf.viewer": "tab",
 
