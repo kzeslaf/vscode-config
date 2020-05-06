@@ -30,6 +30,11 @@
     // Per Language Settings
     /////////////////////////////
 
+    "[java]": {
+        "editor.rulers": [80, 100],
+        "editor.tabSize": 2
+    },
+
     "[markdown]": {
         "editor.wordWrap": "off"
     },
@@ -47,6 +52,7 @@
 
     // Java
     "java.configuration.checkProjectSettingsExclusions": false,
+    "java.format.settings.url": "eclipse-java-google-style.xml",
 
     // Latex
     "latex-workshop.view.pdf.viewer": "tab",
