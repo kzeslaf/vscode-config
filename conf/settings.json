@@ -26,6 +26,8 @@
 
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
 
+    "workbench.editor.enablePreview": false,
+
     /////////////////////////////
     // Per Language Settings
     /////////////////////////////
