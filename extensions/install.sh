@@ -3,18 +3,22 @@
 set -e
 
 # Propositions:
-#    - C/C++ (Microsoft)
 #    - CMake Tools (vector-of-bool)
 #    - Jenkins Pipeline Linter Connector (janjoerke)
 #    - Nagios (tmlo)
-#    - PlantUML (jebbs)
 
 extensions=(
+    # C/C++
+    ms-vscode.cpptools
+
     # java
     redhat.java
 
     # latex
     james-yu.latex-workshop
+
+    # plantuml
+    jebbs.plantuml
 
     # python
     ms-python.python
