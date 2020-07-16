@@ -8,7 +8,10 @@ set -e
 #    - Nagios (tmlo)
 
 extensions=(
-    # C/C++
+    # bookmarks
+    alefragnani.Bookmarks
+
+    # c/c++
     ms-vscode.cpptools
 
     # java
