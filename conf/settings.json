@@ -49,8 +49,9 @@
     // Plugins
     /////////////////////////////
 
-    // Bash
-    "shellcheck.disableVersionCheck": true,
+    // Bookmarks
+    "bookmarks.navigateThroughAllFiles": true,
+    "bookmarks.useWorkaroundForFormatters": true,
 
     // C++
     "C_Cpp.intelliSenseEngineFallback": "Disabled",
@@ -71,5 +72,8 @@
         "-d missing-function-docstring",
         "-d missing-module-docstring"
     ],
-    "python.linting.pylintUseMinimalCheckers": false
+    "python.linting.pylintUseMinimalCheckers": false,
+
+    // Shellcheck
+    "shellcheck.disableVersionCheck": true
 }
