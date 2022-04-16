@@ -1,5 +1,6 @@
-# TODO
+# Extensions
 
-* Propositions:
-    * Jenkins Pipeline Linter Connector (janjoerke)
-    * Nagios (tmlo)
+## Propositions
+
+* Jenkins Pipeline Linter Connector (janjoerke)
+* Nagios (tmlo)
