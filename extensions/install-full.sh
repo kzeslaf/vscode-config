@@ -2,17 +2,13 @@
 
 set -e
 
-# Propositions:
-#    - CMake Tools (vector-of-bool)
-#    - Jenkins Pipeline Linter Connector (janjoerke)
-#    - Nagios (tmlo)
-
 extensions=(
     # bookmarks
     alefragnani.Bookmarks
 
     # c/c++
     ms-vscode.cpptools
+    ms-vscode.cmake-tools
 
     # java
     redhat.java
