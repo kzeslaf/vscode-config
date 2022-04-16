@@ -10,6 +10,8 @@
     "editor.scrollBeyondLastLine": false,
     "editor.wordWrap": "off",
 
+    "extensions.ignoreRecommendations": true,
+
     "files.eol": "\n",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
