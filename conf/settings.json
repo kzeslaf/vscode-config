@@ -48,6 +48,7 @@
     "bookmarks.useWorkaroundForFormatters": true,
 
     // C++
+    "C_Cpp.clang_format_fallbackStyle": "Google",
     "C_Cpp.intelliSenseEngineFallback": "Disabled",
     "C_Cpp.loggingLevel": "Warning",
 
