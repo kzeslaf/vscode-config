@@ -1,4 +1,3 @@
-// Place your settings in this file to overwrite the default settings
 {
     "editor.autoClosingBrackets": "never",
     "editor.autoClosingQuotes": "never",
@@ -15,11 +14,6 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-
-    "files.associations": {
-        "SConscript": "python",
-        "SConstruct": "python"
-    },
 
     "git.ignoreLegacyWarning": true,
 
@@ -56,6 +50,8 @@
     // C++
     "C_Cpp.intelliSenseEngineFallback": "Disabled",
     "C_Cpp.loggingLevel": "Warning",
+
+    "cmake.configureOnOpen": true,
 
     // Java
     "java.configuration.checkProjectSettingsExclusions": false,
