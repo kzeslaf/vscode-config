@@ -25,6 +25,9 @@ extensions=(
     # rewrap
     stkb.rewrap
 
+    # rust
+    matklad.rust-analyzer
+
     # shellcheck
     timonwong.shellcheck
 
