@@ -63,6 +63,9 @@
 
     "cmake.configureOnOpen": true,
 
+    // Code Spell Checker
+    "cSpell.language": "en,pl",
+
     // Java
     "java.configuration.checkProjectSettingsExclusions": false,
     "java.format.settings.url": "eclipse-java-google-style.xml",
