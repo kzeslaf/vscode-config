@@ -25,9 +25,7 @@
 
     "git.ignoreLegacyWarning": true,
 
-    "telemetry.enableTelemetry": false,
-
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "telemetry.telemetryLevel": "off",
 
     "workbench.editor.enablePreview": false,
 
