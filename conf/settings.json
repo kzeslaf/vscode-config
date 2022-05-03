@@ -5,9 +5,15 @@
     "editor.foldingHighlight": false,
     "editor.fontSize": 16,
     "editor.minimap.enabled": false,
+    "editor.quickSuggestions": {
+        "other": "off",
+        "comments": "off",
+        "strings": "off"
+    },
     "editor.renderWhitespace": "all",
     "editor.rulers": [80],
     "editor.scrollBeyondLastLine": false,
+    "editor.tabCompletion": "onlySnippets",
     "editor.wordWrap": "off",
 
     "extensions.ignoreRecommendations": true,
