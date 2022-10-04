@@ -1,0 +1,30 @@
+{
+	"Trefl": {
+		"prefix": "trefl",
+		"body": [
+			"&clubs;"
+		],
+		"description": "trefl"
+	},
+	"Karo": {
+		"prefix": "karo",
+		"body": [
+			"&diams;"
+		],
+		"description": "karo"
+	},
+	"Kier": {
+		"prefix": "kier",
+		"body": [
+			"&hearts;"
+		],
+		"description": "kier"
+	},
+	"Pik": {
+		"prefix": "pik",
+		"body": [
+			"&spades;"
+		],
+		"description": "pik"
+	}
+}
