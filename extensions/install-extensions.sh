@@ -10,9 +10,6 @@ extensions=(
     ms-vscode.cpptools
     ms-vscode.cmake-tools
 
-    # java
-#    redhat.java
-
     # latex
 #    james-yu.latex-workshop
 
