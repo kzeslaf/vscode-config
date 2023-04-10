@@ -11,13 +11,13 @@ extensions=(
     ms-vscode.cmake-tools
 
     # java
-    redhat.java
+#    redhat.java
 
     # latex
-    james-yu.latex-workshop
+#    james-yu.latex-workshop
 
     # plantuml
-    jebbs.plantuml
+#    jebbs.plantuml
 
     # python
     ms-python.python
@@ -26,7 +26,7 @@ extensions=(
     stkb.rewrap
 
     # rust
-    matklad.rust-analyzer
+    rust-lang.rust-analyzer
 
     # shellcheck
     timonwong.shellcheck
@@ -38,5 +38,7 @@ extensions=(
 )
 
 for i in "${extensions[@]}"; do
-    code --install-extension "$i"
+    code --install-extension "$i" --force
 done
+
+echo "Done"
