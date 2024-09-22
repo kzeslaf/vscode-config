@@ -1,45 +1,55 @@
 {
     "editor.autoClosingBrackets": "never",
     "editor.autoClosingQuotes": "never",
-    "editor.folding": false,
+    "editor.folding": true,
     "editor.foldingHighlight": false,
     "editor.fontSize": 16,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modifications",
     "editor.minimap.enabled": false,
     "editor.quickSuggestions": {
-        "other": "off",
         "comments": "off",
+        "other": "off",
         "strings": "off"
     },
     "editor.renderWhitespace": "all",
-    "editor.rulers": [80],
+    "editor.rulers": [
+        80,
+        100
+    ],
     "editor.scrollBeyondLastLine": false,
     "editor.tabCompletion": "onlySnippets",
     "editor.wordWrap": "off",
 
+    "emmet.includeLanguages": {
+        "cpp": "html"
+    },
+
     "extensions.ignoreRecommendations": true,
 
+    "files.associations": {
+        "*.dox": "cpp"
+    },
     "files.eol": "\n",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
 
     "git.ignoreLegacyWarning": true,
+    "git.ignoreMissingGitWarning": true,
+    "git.openRepositoryInParentFolders": "never",
 
     "telemetry.telemetryLevel": "off",
 
     "workbench.editor.enablePreview": false,
+    "workbench.editor.wrapTabs": true,
+
+    "zenMode.hideLineNumbers": false,
+    "zenMode.showTabs": "none",
 
     /////////////////////////////
     // Per Language Settings
     /////////////////////////////
-
-//    "[java]": {
-//        "editor.detectIndentation": false,
-//        "editor.folding": true,
-//        "editor.insertSpaces": true,
-//        "editor.rulers": [80, 100],
-//        "editor.tabSize": 2
-//    },
 
     "[markdown]": {
         "editor.wordWrap": "off"
@@ -50,29 +60,32 @@
     /////////////////////////////
 
     "bookmarks.navigateThroughAllFiles": true,
-    "bookmarks.useWorkaroundForFormatters": true,
 
     "C_Cpp.clang_format_fallbackStyle": "Google",
-    "C_Cpp.codeAnalysis.runAutomatically": false,
+    "C_Cpp.codeAnalysis.runAutomatically": true,
     "C_Cpp.intelliSenseEngineFallback": "disabled",
     "C_Cpp.loggingLevel": "Warning",
 
     "cmake.configureOnOpen": true,
+    "cmake.options.statusBarVisibility": "visible",
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "cmake.showOptionsMovedNotification": false,
 
+    "cSpell.customDictionaries": {
+        "custom-dictionary-user": {
+            "name": "custom-dictionary-user",
+            "path": "~/.cspell/custom-dictionary-user.txt",
+            "addWords": true,
+            "scope": "user"
+        }
+    },
     "cSpell.language": "en,pl",
 
-//    "java.configuration.checkProjectSettingsExclusions": false,
-//    "java.format.settings.url": "eclipse-java-google-style.xml",
-
-//    "latex-workshop.view.pdf.viewer": "tab",
-
-    "python.envFile": "",
-    "python.linting.pycodestyleEnabled": true,
-    "python.linting.pylintArgs": [
-        "-d missing-class-docstring",
-        "-d missing-function-docstring",
-        "-d missing-module-docstring"
-    ],
+    "latex-workshop.latex.outDir": "%WORKSPACE_FOLDER%/build-latex",
+    "latex-workshop.view.pdf.viewer": "tab",
 
     "shellcheck.disableVersionCheck": true
 }
