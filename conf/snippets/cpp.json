@@ -28,5 +28,33 @@
 			"}  // namespace ${1:name}"
 		],
 		"description": "Namespace"
+	},
+	"log error": {
+		"prefix": "error",
+		"body": [
+			"printf(Log::LOG_ERROR, \"${0}\")"
+		],
+		"description": "Log Error"
+	},
+	"log warn": {
+		"prefix": "warn",
+		"body": [
+			"printf(Log::LOG_WARNING, \"${0}\")"
+		],
+		"description": "Log Warn"
+	},
+	"log info": {
+		"prefix": "info",
+		"body": [
+			"printf(Log::LOG_INFO, \"${0}\")"
+		],
+		"description": "Log Info"
+	},
+	"log debug": {
+		"prefix": "debug",
+		"body": [
+			"printf(Log::LOG_DEBUG, \"${0}\")"
+		],
+		"description": "Log Debug"
 	}
 }
