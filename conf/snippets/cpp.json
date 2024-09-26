@@ -1,60 +1,58 @@
 {
-	"dox": {
+	"Doxygen Comment": {
 		"prefix": "dox",
 		"body": [
 			"/**",
-			" * ${0}",
+			" * $0",
 			" */"
-		],
-		"description": "Doxygen Comment"
+		]
 	},
-	"include guard": {
+	"Include Guard": {
 		"prefix": "once",
 		"body": [
-			"#ifndef ${1:PROJECT_FILE}_H_",
-			"#define ${1:PROJECT_FILE}_H_",
+			"#ifndef ${1:${TM_FILENAME_BASE/(.*)/${0:/upcase}/}}_H_",
+			"#define $1_H_",
 			"",
-			"${0}",
+			"$0",
 			"",
-			"#endif /* ${1:PROJECT_FILE}_H_ */"
-		],
-		"description": "Include Guard"
+			"#endif /* $1_H_ */"
+		]
 	},
-	"namespace": {
+	"Namespace": {
 		"prefix": "ns",
 		"body": [
 			"namespace ${1:name} {",
-			"${0}",
-			"}  // namespace ${1:name}"
-		],
-		"description": "Namespace"
+			"$0",
+			"}  // namespace $1"
+		]
 	},
-	"log error": {
+
+	/////////////////////////////
+	// Log
+	/////////////////////////////
+
+	"Log Error": {
 		"prefix": "error",
 		"body": [
-			"printf(Log::LOG_ERROR, \"${0}\")"
-		],
-		"description": "Log Error"
+			"printf(Log::LOG_ERROR, \"$0\")"
+		]
 	},
-	"log warn": {
+	"Log Warn": {
 		"prefix": "warn",
 		"body": [
-			"printf(Log::LOG_WARNING, \"${0}\")"
-		],
-		"description": "Log Warn"
+			"printf(Log::LOG_WARNING, \"$0\")"
+		]
 	},
-	"log info": {
+	"Log Info": {
 		"prefix": "info",
 		"body": [
-			"printf(Log::LOG_INFO, \"${0}\")"
-		],
-		"description": "Log Info"
+			"printf(Log::LOG_INFO, \"$0\")"
+		]
 	},
-	"log debug": {
+	"Log Debug": {
 		"prefix": "debug",
 		"body": [
-			"printf(Log::LOG_DEBUG, \"${0}\")"
-		],
-		"description": "Log Debug"
+			"printf(Log::LOG_DEBUG, \"$0\")"
+		]
 	}
 }
