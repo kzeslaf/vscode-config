@@ -1,10 +1,70 @@
 {
+	//
+	// Table of Contents
+	//
+	//     1. Misc
+	//     2. GTest
+	//     3. Log
+	//
+
+	"Class": {
+		"prefix": ["cl", "class"],
+		"body" : [
+			"class ${TM_FILENAME_BASE}",
+			"{",
+			"public:",
+			"\t$0",
+			"};"
+		]
+	},
 	"Doxygen Comment": {
 		"prefix": "dox",
 		"body": [
 			"/**",
 			" * $0",
 			" */"
+		]
+	},
+	"For": {
+		"prefix": "for",
+		"body": [
+			"for (${1:int i = 0}; ${2:i < ...}; ${3:++i}) {",
+			"\t$0",
+			"}"
+		]
+	},
+	"Foreach": {
+		"prefix": ["fore", "foreach"],
+		"body": [
+			"for (${1:const auto &i} : $2) {",
+			"\t$0",
+			"}"
+		]
+	},
+	"If": {
+		"prefix": "if",
+		"body": [
+			"if ($1) {",
+			"\t$0",
+			"}"
+		]
+	},
+	"Include": {
+		"prefix": "inc",
+		"body": [
+			"#include <$0>"
+		]
+	},
+	"Includes: standard set": {
+		"prefix": ["sinc", "incs"],
+		"body": [
+			"#include <stdio.h>",
+			"#include <stdint.h>",
+			"",
+			"#include <iostream>",
+			"#include <map>",
+			"#include <string>",
+			"#include <vector>"
 		]
 	},
 	"Include Guard": {
@@ -18,12 +78,53 @@
 			"#endif /* $1_H_ */"
 		]
 	},
+	"Main": {
+		"prefix": "main",
+		"body": [
+			"int main(int argc, char *argv[])",
+			"{",
+			"\t$0",
+			"\treturn 0;",
+			"}"
+		]
+	},
 	"Namespace": {
 		"prefix": "ns",
 		"body": [
 			"namespace ${1:name} {",
 			"$0",
 			"}  // namespace $1"
+		]
+	},
+	"Struct": {
+		"prefix": ["st", "struct"],
+		"body": [
+			"struct ${TM_FILENAME_BASE}",
+			"{",
+			"\t$0",
+			"};"
+		]
+	},
+	"While": {
+		"prefix": ["wh", "while"],
+		"body": [
+			"while ($1) {",
+			"\t$0",
+			"}"
+		]
+	},
+
+	/////////////////////////////
+	// GTest
+	/////////////////////////////
+
+	"Test Case":{
+		"prefix": "test",
+		"body": [
+			"TEST(${TM_FILENAME_BASE}, ${1:testName})",
+			"{",
+			"\t$0",
+			"}"
 		]
 	},
 
