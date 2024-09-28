@@ -52,7 +52,7 @@
 	"Include": {
 		"prefix": "inc",
 		"body": [
-			"#include <$0>"
+			"#include $0"
 		]
 	},
 	"Includes: standard set": {
